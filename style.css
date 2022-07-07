@@ -1,0 +1,60 @@
+@font-face { 
+    font-family: myFont;
+    src: url('images/Norse-Bold.otf')
+}
+
+
+body { 
+    font-family: 'Ubuntu', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+.image-section { 
+    display: flex;
+    width: 40%;
+    height: 100%; 
+    background: url(./images/forest-bg.jpeg) no-repeat center;
+    background-size: cover;
+    align-content: center;
+    justify-content: center;
+}
+
+.small-banner-bg { 
+    background-color: rgba(0, 0, 0, 0.273);
+    position: relative;
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.odin-logo-title{ 
+    font-family: myFont, sans-serif;
+    color: white;
+    font-size: 80px;
+    position: relative;
+    top: 70px;
+}
+.image-credit-section { 
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: larger;
+}
+
+
+a:link, a:visited {
+    color: rgb(255, 255, 255);
+}
+a:hover {
+    color: rgb(0, 106, 255);
+}
